@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Week2Academy.Esercitazione.Movements;
+using Week2Academy.Esercitazione.Account.Movement;
 
-namespace Week2Academy.Esercitazione
+namespace Week2Academy.Esercitazione.Account
 {
     public class Account
     {
@@ -14,24 +12,24 @@ namespace Week2Academy.Esercitazione
         public double Credit { get; set; }
         public DateTime LastMovement { get; set; }
 
-        public List<Movement> movements { get; set; } = new List<Movement>();
+        public List<IMovement> movements { get; set; } = new List<IMovement>();
 
         //operator + o - sulla lista dei movimenti
         //saldo e data ultima operaz
         //mov + e - da aggiungere alla lista
 
-        public static List<Movement> operator +(Account a, Movement m )
+        public static List<IMovement> operator +(Account a, IMovement m)
         {
-            List<Movement> list = new List<Movement>();
+            List<IMovement> list = new List<IMovement>();
             a.Credit += m.Balance; //sommo al credito tot il saldo del movimento
             a.LastMovement = m.LastOperation;
             list.Add(m);
             return list;
 
         }
-        public static List<Movement> operator -(Account a, Movement m)
+        public static List<IMovement> operator -(Account a, IMovement m)
         {
-            List<Movement> list = new List<Movement>();
+            List<IMovement> list = new List<IMovement>();
             a.Credit -= m.Balance; //sottraggo al credito tot il saldo del movimento
             a.LastMovement = m.LastOperation;
             list.Add(m);

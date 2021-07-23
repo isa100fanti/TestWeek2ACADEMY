@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2Academy.Esercitazione.Movements
+namespace Week2Academy.Esercitazione.Account.Movement
 {
-    public abstract class Movement
+    public interface IMovement
     {
         public double Balance { get; set; } //saldo
         public DateTime LastOperation { get; set; }
-
-        public abstract override string ToString();
     }
 }

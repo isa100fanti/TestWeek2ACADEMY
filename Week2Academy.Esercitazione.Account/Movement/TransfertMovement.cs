@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2Academy.Esercitazione.Movements
+namespace Week2Academy.Esercitazione.Account.Movement
 {
-    public class TransferMovement : Movement
+    public class TransfertMovement : IMovement
     {
         public string OriginBank { get; set; }
         public string DestinationBank { get; set; }
+        public double Balance { get; set; }
+        public DateTime LastOperation { get; set; }
 
-        public TransferMovement(double balance, DateTime lastop, string originb,string destb)
+        public TransfertMovement(double balance, DateTime lastop, string originb, string destb)
         {
             Balance = balance;
             LastOperation = lastop;

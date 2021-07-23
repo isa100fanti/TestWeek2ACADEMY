@@ -4,32 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2Academy.Esercitazione.Movements
+namespace Week2Academy.Esercitazione.Account.Movement
 {
-    public enum CardType
+    public class CashMovement : IMovement
     {
-        Amex,
-        Visa,
-        Mastercard,
-        Other
-    }
-    public class CreditCardMovement : Movement
-    {
-        public int CardNumber { get; set; }
+        public String Esecutore { get; set; } //rivenditore
+        public double Balance { get; set; }
+        public DateTime LastOperation { get; set; }
 
-        public CreditCardMovement(double balance, DateTime lastop, int cardnum)
+        public CashMovement(double balance, DateTime lastop, string esecutore)
         {
             Balance = balance;
             LastOperation = lastop;
-            CardNumber = cardnum;
+            Esecutore = esecutore;
         }
-
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"------- Balance {Balance}");
             sb.AppendLine($"Last Operation {LastOperation}");
-            sb.AppendLine($"Credit card N {CardNumber}");
+            sb.AppendLine($"Esecutore {Esecutore}");
 
             return sb.ToString();
         }
