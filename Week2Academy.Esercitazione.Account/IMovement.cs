@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2Academy.Esercitazione.Account.Movement
+namespace Week2Academy.Esercitazione.Library
 {
     public interface IMovement
     {

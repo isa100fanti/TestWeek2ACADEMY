@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2Academy.Esercitazione", "Week2Academy.Esercitazione\Week2Academy.Esercitazione.csproj", "{C3554B38-71AB-4516-B04F-F98D6FF9B685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2Academy.Esercitazione.Account", "Week2Academy.Esercitazione.Account\Week2Academy.Esercitazione.Account.csproj", "{4774F488-D4D0-4460-BA5E-C8F63D386C22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2Academy.Esercitazione.Library", "Week2Academy.Esercitazione.Account\Week2Academy.Esercitazione.Library.csproj", "{4774F488-D4D0-4460-BA5E-C8F63D386C22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

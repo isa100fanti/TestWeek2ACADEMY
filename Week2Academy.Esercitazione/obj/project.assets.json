@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Week2Academy.Esercitazione.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Week2Academy.Esercitazione.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Week2Academy.Esercitazione.Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Week2Academy.Esercitazione.Library/1.0.0": {
+      "type": "project",
+      "path": "../Week2Academy.Esercitazione.Account/Week2Academy.Esercitazione.Library.csproj",
+      "msbuildProject": "../Week2Academy.Esercitazione.Account/Week2Academy.Esercitazione.Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Week2Academy.Esercitazione.Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\isabella.centofanti\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\Week2Academy.Esercitazione.Library.csproj": {
+              "projectPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\Week2Academy.Esercitazione.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

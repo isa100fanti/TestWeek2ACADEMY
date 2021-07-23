@@ -12,11 +12,18 @@ namespace Week2Academy.Esercitazione
             */
 
             bool go = true;
-            
+            int scelta = 0;
             Console.WriteLine("benvenuto sul sito della banca!");
-            while (go)
+            while (scelta != 4)
             {
-                Gestore.Menu();
+                Console.WriteLine("cosa vuoi fare?");
+                Console.WriteLine("1.Apri un account");
+                Console.WriteLine("2. inserisci movimenti");
+                Console.WriteLine("3. stampa estratto conto");
+                Console.WriteLine("4. esci");
+                scelta = Convert.ToInt32(Console.ReadLine());
+                Gestore.AnalizzaScelta(scelta);
+                
             }
             Console.WriteLine("Arrivederci!");
         }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\Week2Academy.Esercitazione.Account.csproj",
-      "projectName": "Week2Academy.Esercitazione.Account",
-      "projectPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\Week2Academy.Esercitazione.Account.csproj",
+      "projectUniqueName": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\Week2Academy.Esercitazione.Library.csproj",
+      "projectName": "Week2Academy.Esercitazione.Library",
+      "projectPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\Week2Academy.Esercitazione.Library.csproj",
       "packagesPath": "C:\\Users\\isabella.centofanti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week2Academy.Esercitazione\\Week2Academy.Esercitazione.Account\\obj\\",
       "projectStyle": "PackageReference",

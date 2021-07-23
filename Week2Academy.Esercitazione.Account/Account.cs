@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Week2Academy.Esercitazione.Account.Movement;
+using Week2Academy.Esercitazione.Library;
 
-namespace Week2Academy.Esercitazione.Account
+namespace Week2Academy.Esercitazione.Library
 {
     public class Account
     {
@@ -14,6 +14,13 @@ namespace Week2Academy.Esercitazione.Account
 
         public List<IMovement> movements { get; set; } = new List<IMovement>();
 
+        public Account(int accN, string bname,double credit)
+        {
+            AccountNumber = accN;
+            BankName = bname;
+            Credit = credit;
+
+        }
         //operator + o - sulla lista dei movimenti
         //saldo e data ultima operaz
         //mov + e - da aggiungere alla lista
@@ -36,6 +43,8 @@ namespace Week2Academy.Esercitazione.Account
             return list;
 
         }
+
+        public Account() { }
 
         public string Statement()
         {

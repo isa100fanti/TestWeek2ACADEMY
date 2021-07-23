@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Week2Academy.Esercitazione.Account\Week2Academy.Esercitazione.Library.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,28 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2Academy.Esercitazione.Account.Movement
+namespace Week2Academy.Esercitazione.Library
 {
-    public class TransfertMovement : IMovement
+    public class CashMovement : IMovement
     {
-        public string OriginBank { get; set; }
-        public string DestinationBank { get; set; }
+        public String Esecutore { get; set; } //rivenditore
         public double Balance { get; set; }
         public DateTime LastOperation { get; set; }
 
-        public TransfertMovement(double balance, DateTime lastop, string originb, string destb)
+        public CashMovement(double balance, DateTime lastop, string esecutore)
         {
             Balance = balance;
             LastOperation = lastop;
-            OriginBank = originb;
-            DestinationBank = destb;
+            Esecutore = esecutore;
         }
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"------- Balance {Balance}");
             sb.AppendLine($"Last Operation {LastOperation}");
-            sb.AppendLine($"From {OriginBank} To {DestinationBank}");
+            sb.AppendLine($"Esecutore {Esecutore}");
 
             return sb.ToString();
         }

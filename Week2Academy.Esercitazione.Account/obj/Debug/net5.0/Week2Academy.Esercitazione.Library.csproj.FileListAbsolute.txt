@@ -1,0 +1,12 @@
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\bin\Debug\net5.0\Week2Academy.Esercitazione.Library.deps.json
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\bin\Debug\net5.0\Week2Academy.Esercitazione.Library.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\bin\Debug\net5.0\ref\Week2Academy.Esercitazione.Library.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\bin\Debug\net5.0\Week2Academy.Esercitazione.Library.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.AssemblyInfoInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.AssemblyInfo.cs
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.csproj.CoreCompileInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\ref\Week2Academy.Esercitazione.Library.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week2Academy.Esercitazione\Week2Academy.Esercitazione.Account\obj\Debug\net5.0\Week2Academy.Esercitazione.Library.csprojAssemblyReference.cache
